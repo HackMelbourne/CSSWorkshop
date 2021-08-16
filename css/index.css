@@ -44,23 +44,3 @@ h1 {
 .portfolio {
     padding: 45px;
 }
-
-.projects {
-    justify-content: center;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.projects > li {
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid gray;
-    margin: 10px;
-}
-
-.projects img {
-    width: 250px;
-    max-width: 90vw;
-}
