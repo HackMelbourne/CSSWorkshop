@@ -12,10 +12,32 @@ body {
     background: linear-gradient(#0F2027, #203A43, #2C5364);
 }
 
+h1 {
+    font-weight: bolder;
+    color: white;
+    position: relative;
+}
+
+.gutter {
+    text-align: center;
+}
+
+.gutter::after {
+    content: '';
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0 20px;
+    width: 300px;
+    height: 5px;
+    display: block;
+    background: #3acb8a;
+}
+
 .heading {
+    color: white;
     padding: 0 100px;
     border-radius: 12px;
-    background: white;
     text-align: center;
 }
 
